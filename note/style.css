@@ -1,0 +1,402 @@
+@media screen and (min-width:930px){
+    #note_page{
+        width: 800px;
+    }
+    #note_page #note_title{
+        font-size:35px;
+    }
+    #note_page #main_in table{
+        width:800px
+    }
+    #note_page{
+        padding:150px 0;
+        margin: 0 auto;
+    }
+    #note_page #main_in table thead tr{
+        height: 60px;
+    }
+    #note_page #main_in table #note_tr{
+        height: 130px;
+    }
+    #note_page #main_in table tr #profile_td #pro_img{
+        float: left;
+        width:70px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    #note_page #main_in table tr #profile_td #send_id{
+        float: left;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    #note_page #main_in .list-table tr #profile_td{
+        width: 20%;
+    }
+    #note_page #main_in .list-table thead tr #from{
+        width: 20%;
+        text-align: center;
+    }
+    #note_page #main_in .list-table thead tr #title{
+        width: 60%;
+    }
+    #note_page #main_in .list-table thead tr #date{
+        width: 20%;
+    }
+    #note_page #main_in .list-table tr #title_td{
+        width: 60%;
+    }
+    #note_page #main_in .list-table tr #date_td{
+        width: 20%;
+    }
+    #note_page #main_in .list-table tr #reception_td{
+        width: 20%;
+    }
+}
+@media screen and (max-width:930px){
+    #note_page #note_title{
+        font-size:25px;
+    }
+    #note_page{
+        width: 100%;
+        margin:0 auto;
+        padding:15px;
+    }
+    #note_page #main_in table{
+        width:100%
+    }
+    #note_page #main_in table thead tr{
+        height: 40px;
+    }
+    #note_page #main_in table #note_tr{
+        height: 80px !important;
+    }
+    #note_page #main_in table tr #profile_td{
+        margin-top: 25px;
+        text-align: center;
+    }
+    #note_page #main_in table tr #profile_td #pro_img{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin:0 auto;
+    }
+    #note_page #main_in table tr #profile_td #pro_img img{
+        width:100%;
+        float: left;
+    }
+    #note_page #main_in table tr #profile_td #send_id{
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    #note_page #main_in .list-table tr #profile_td{
+        text-align: center;
+        padding-left: 10px;
+    }
+    #note_page #main_in .list-table thead tr #from{
+        text-align: center;
+    }
+    #note_page #main_in .list-table thead tr #title{
+    
+    }
+    #note_page #main_in .list-table thead tr #date{
+        text-align: center;
+    }
+    #note_page #main_in .list-table tr #title_td{
+    
+    }
+    #note_page #main_in .list-table tr #date_td{
+        text-align: center;
+    }
+    #note_page #main_in .list-table tr #reception_td{
+        text-align: center;
+    }
+}
+
+#note_page #note_title{
+    font-weight: bold;
+    color:#000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#note_page #note_menu li{
+   float: left;
+   margin-right: 20px;
+}
+#note_page #note_menu li a{
+    color:#000;
+    font-size: 18px;
+}
+#note_page #note_menu li:last-child a{
+    color:#000;
+    font-size: 18px;
+    font-weight: 300;
+}
+#note_page #main_in table thead tr{
+    background: #fff;
+}
+
+#note_page #main_in table thead th{
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color:#888;
+    font-size: 15px;
+}
+#note_page #main_in table #note_tr{
+    border-bottom: 1px solid #DDD;
+}
+#note_page #main_in table #note_tr:hover{
+    cursor: pointer;
+}
+
+#note_page #main_in table tr #profile_td #pro_img{
+    border:1px solid #eee;
+    border-radius: 100%;
+    overflow: hidden;
+}
+#note_page #main_in table tr #profile_td #send_id{
+    
+    color:#333;
+    font-weight: 500;
+}
+#note_page #main_in .list-table tr #title_td{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#note_page #main_in .list-table tr #date_td{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 13px;
+}
+#note_page #main_in .list-table tr #reception_td{
+    padding: 20px;
+}
+#note_page #main_in #note_btn{
+    float: right;
+    display: block;
+    width:130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #000;
+    color:#fff;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+/*send*/
+@media screen and (min-width:930px){
+    #note_page #main_in .list-table_send thead tr #from{
+        width: 25%;
+    }
+    #note_page #main_in .list-table_send thead tr #title{
+        width: 45%;
+    }
+    #note_page #main_in .list-table_send thead tr #date{
+        width: 20%;
+    }
+    #note_page #main_in .list-table_send thead tr #reception{
+        width: 15%;
+    }
+    
+    #note_page #main_in .list-table_send tr #profile_td{
+        width: 15%;
+    }
+    #note_page #main_in .list-table_send tr #title_td{
+        width: 45%;
+    }
+    #note_page #main_in .list-table_send tr #date_td{
+        width: 15%;
+    }
+    #note_page #main_in .list-table_send tr #reception_td{
+        width: 15%;
+    }
+}
+@media screen and (max-width:930px){
+    
+}
+#note_page #main_in .list-table_send thead tr #from{
+    text-align: center;
+}
+#note_page #main_in .list-table_send thead tr #date{
+    text-align: center;
+}
+#note_page #main_in .list-table_send thead tr #reception{
+    text-align: center;
+}
+
+#note_page #main_in .list-table_send tr #profile_td{
+    margin-top: 30px;
+}
+#note_page #main_in .list-table_send tr #title_td{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#note_page #main_in .list-table_send tr #date_td{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+}
+#note_page #main_in .list-table_send tr #reception_td{
+    padding: 20px;
+    text-align: center;
+}
+
+/*write*/
+@media screen and (min-width:930px){
+    #note_page #write_note_in{
+        width: 450px;
+    }  
+}
+@media screen and (max-width:930px){
+    #note_page #write_note_in{
+        width: 100%;
+    }  
+}
+#note_page #note_menu1{
+    text-align: center;
+ }
+ #note_page #note_menu1 li{
+     display: inline-block;
+     margin-right: 20px;
+ }
+ #note_page #note_menu1 li a{
+     color:#000;
+     font-size: 18px;
+ }
+ #note_page #note_menu1 li:last-child a{
+     color:#000;
+     font-size: 18px;
+ }
+ #note_page #write_note_in{
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 30px;
+ }    
+ #note_page #write_note_in input{
+    border: 1px solid #999;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #000;
+}
+#note_page #write_note_in p{
+    font-size: 18px;
+    margin-bottom: 9px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+}
+#note_page #write_note_in #write_form div{
+    margin-bottom: 20px;
+}    
+#note_page #write_note_in #write_form textarea{
+    resize: none;
+width: 100%;
+height: 200px;
+border-radius: 5px;
+padding: 10px;
+}
+#note_page #write_note_in #write_form button{
+    width: 100%;
+    background: #000;
+    height: 50px;
+    border-radius: 10px;
+    color:#fff;
+    font-weight: 500;
+}
+
+/*view*/
+@media screen and (min-width:930px){
+    #note_page #note_read{
+        width: 450px;
+    } 
+    #note_page #note_read_bt{
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:930px){
+    #note_page #note_read{
+        width: 100%;
+    }  
+    #note_page #note_read_bt{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+#note_page #note_read{
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #fff;
+    padding:15px;
+    border-radius: 10px;
+}  
+#note_page #note_info #user_info{
+    border-bottom: 1px solid #ccc;
+} 
+#note_page #note_info #user_info ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+#note_page #note_info #user_info ul li #send_data{
+    display: inline-block;
+    width: 65px;
+    font-size: 16px;
+    color:#000;
+    font-weight: bold;
+}
+#note_page #note_info #user_info ul li #profile_span{
+    display: flex;
+    align-items: center;
+}
+#note_page #note_info #user_info ul li #profile_span #pro_img{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border:1px solid #eee;
+    border-radius: 100%;
+    overflow: hidden;
+}
+#note_page #note_info #bo_content{
+    padding:10px;
+    min-height: 200px;
+    border-bottom: 1px solid #ccc;
+} 
+#note_page #note_read_bt{
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#note_page #note_read_bt a{  
+    width: 49%;
+    color:#fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#note_page #note_read_bt .del_bt{
+    background: #999;
+    float: left;
+}
+#note_page #note_read_bt .dap_bt{
+    background: #000;
+    float: right;
+}
+#note_page #note_read_bt .del_bt_send{
+    display: block;
+    width: 100%;
+    background: #999;
+}

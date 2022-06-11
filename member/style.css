@@ -1,0 +1,87 @@
+@media screen and (min-width:930px){
+    #reg_form form{margin:0 auto;color:#000;width:450px;}
+    #reg_form #profile #title{
+        font-size: 35px;
+        color:#000;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:930px){
+    #reg_form form{margin:0 auto;color:#000;width:100%;padding:0 20px;}
+    #reg_form #profile #title{
+        font-size: 25px;
+        color:#000;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+}
+#reg_form{
+    margin:0 auto;
+    padding:150px 0 70px 0;
+    position: relative;
+}
+#reg_form #profile #user_img{
+    width:173px;
+    height:173px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+#reg_form #profile label { 
+    display: inline-block;
+    padding: .5em 1.75em;
+    color: #999;
+    font-size: inherit;
+    line-height: normal; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    border: 3px solid #999; 
+    border-radius: 1.4em; 
+    margin-top: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+} 
+#reg_form #profile label:hover{ 
+    border: 3px solid #222;
+    color:#222;
+  
+} 
+#reg_form #profile #upfile { /* 파일 필드 숨기기 */ 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0; 
+}
+
+#reg_form form input{background: none}
+#reg_form form #profile{margin-bottom: 30px;text-align: center;}
+#reg_form form #profile #preview.active{width:173px;}
+#reg_form form #profile::after{content:"";display: block;width:100%;height: 1px;background-color: #000;margin:20px auto}
+#reg_form form #input_box #input_title{
+    font-size: 18px;
+    margin-bottom: 9px;
+    font-weight: 700;
+}
+#reg_form form #input_box input{border:1px solid #999;width:100%;height:40px;border-radius: 5px;padding:5px;box-sizing: border-box;color:#000}
+#reg_form form #input_box #id1.active{border: 2px solid red !important;}
+#reg_form form #input_box #pw_check1,#reg_form form #input_box #pw_check2{color:red;display: none;}
+#reg_form form #input_box #pw_check1.active,#reg_form form #input_box #pw_check2.active{display: block;}
+#reg_form form #input_box #input_content{margin-bottom: 15px;}
+
+#reg_form form #input_box #check{background-color: #000;font-weight: 500;width:25%;font-size: 14px;color:#000}
+#reg_form form #input_box #input_sex{display: flex;align-items: center;margin-bottom: 15px;}
+#reg_form form #input_box #check_alert{color:red}
+#reg_form form #input_box #input_sex input{width:20px;margin-bottom: 0;}
+#reg_form form #input_box #input_sex span{margin:0 10px;}
+#reg_form form #button input{width:100%;border-radius: 5px;height:50px;border:none;background:#000;color:#fff;font-size: 15px;}
+#reg_form form #button input:hover{cursor: pointer;}
+#reg_form form #pro_img{position: relative;width:174px;height:174px;text-align: center;margin: 0 auto;overflow: hidden;border-radius: 100%;display: flex;align-items: center;}
+#reg_form form #input_box #update_id,#reg_form form #input_box #update_name{margin-bottom: 15px;}

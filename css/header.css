@@ -1,0 +1,591 @@
+@media screen and (min-width:1200px){
+    header #dummy{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.6;
+    }
+    header #dummy.active{
+        display: block;
+    }
+    header #header_bottom{
+        height:76px;
+    }
+    header #header_bottom #logo{
+        float: left;
+        margin-left: 25px;
+        margin-top: 26px;
+    }
+    header #header_bottom #login #menu_btn1{
+        float: right;
+        margin-top: 24px;
+        margin-right: 38px;
+        z-index: 102;
+        width: 21px;
+        height: 21px;
+        transition: all 0.4s;
+    }
+    header #header_bottom #login #menu_btn1:hover span{
+        background: #a4d5a6;
+    }
+    header #header_bottom #login #menu_btn1:hover{
+        transform: rotate(-90deg);
+    }
+    header #header_bottom #login #menu_btn1 span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        transition: all 0.4s;
+    }
+    header #header_bottom #link_box{
+        overflow-y: scroll;
+        position: fixed;
+        width:100%;
+        max-width: 900px;
+        height: 100%;
+        background: #fff;
+        top: 0;
+        right: -100%;
+        z-index: 1;
+        transition: all 0.6s;
+    } 
+    header #header_bottom #link_box #title{
+        height: 76px;
+        text-align: center;
+        margin: 0;
+        line-height: 70px;
+        margin-bottom: 75px;
+        border-bottom: 1px solid #EEE;
+    }
+    header #header_bottom #link_box #menu_btn2{
+        position: absolute;
+        top: 27px;
+        right: 40px;
+        transition: all 0.4s;
+    }
+    header #header_bottom #link_box #menu_btn2:hover{
+        transform: rotate(90deg);
+    }
+    header #header_bottom #link_box #menu_btn2 i{
+        font-size: 20px;
+        color:#000;
+    }
+    header #header_bottom #link_box.active{
+        right: 0;
+    }
+    header #header_bottom #link_box ul{
+        text-align: center;
+        padding:0 10px;
+    }
+    header #header_bottom #link_box ul li{
+        float: left;
+        width: 260px;
+        height: 260px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: #000;
+    }
+    header #header_bottom #link_box ul li a{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    header #header_bottom #link_box ul li a{
+        overflow: hidden;
+    }
+    header #header_bottom #link_box ul li a img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        opacity: 0.7;
+        transition: all 0.5s;
+    }
+    header #header_bottom #link_box ul li a img:hover{
+        transform: scale(1.1);
+    }
+    header #header_bottom #link_box ul li a span{
+        position: absolute;
+        width: 100%;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        color:#fff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    header #header_bottom #login a{
+        margin-right: 35px;
+    }
+    header #header_bottom #login .note_btn i{
+        font-size: 26px;
+        color:#000;
+        transition: all 0.2s;
+    }
+    header #header_bottom #login #login_btn i{
+        font-size: 26px;
+        color:#000;
+        transition: all 0.2s;
+    }
+    header #header_bottom #login .note_btn:hover i{
+        color:#a4d5a6;
+    }
+    header #header_bottom #login #login_btn:hover i{
+        color:#a4d5a6;
+    }
+    header #search_form{
+        position: relative;
+        float: left;
+        margin-left: 100px;
+        width: 600px;
+    }
+    header #search_form::before{
+        position: absolute;
+        left: -30px;
+        top: 28px;
+        width: 2px;
+        height: 23px;
+        background-color: #666;
+        content: "";
+    }
+    header #search_form #list_search #list_search4{
+        width: 100%;
+        height: 50px;
+        margin-top: 13px;
+        margin-right: 51px;
+        position: relative;
+        border-radius: 7px;
+    }
+    header #search_form #list_search #list_search4 img{
+        margin-top: 14px;
+        margin-left: 17px;
+    }
+    header #gnb_m{
+        display: none;
+    }
+    header #search_form #list_search #list_search4 i{
+        font-size: 18px;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+    header #header_bottom #login a{
+        display: inline-block;
+        margin-top: 24px;
+    }
+}
+@media screen and (min-width:930px) and (max-width:1200px){
+    header #dummy{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.6;
+    }
+    header #dummy.active{
+        display: block;
+    }
+    header #header_bottom{
+        height:76px;
+    }
+    header #header_bottom #logo{
+        float: left;
+        margin-left: 25px;
+        margin-top: 26px;
+    }
+    header #header_bottom #login #menu_btn1{
+        float: right;
+        margin-top: 24px;
+        margin-right: 38px;
+        z-index: 102;
+        width: 21px;
+        height: 21px;
+        transition: all 0.4s;
+    }
+    header #header_bottom #login #menu_btn1 span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        transition: all 0.4s;
+    }
+    header #header_bottom #login #menu_btn1:hover{
+        transform: rotate(-90deg);
+    }
+    header #header_bottom #login #menu_btn1:hover span{
+        background: #a4d5a6;
+    }
+    header #header_bottom #link_box #menu_btn2:hover{
+        transform: rotate(90deg);
+    }
+    header #header_bottom #login .note_btn i{
+        font-size: 26px;
+        color:#000;
+        transition: all 0.2s;
+    }
+    header #header_bottom #login #login_btn i{
+        font-size: 26px;
+        color:#000;
+        transition: all 0.2s;
+    }
+    header #header_bottom #login .note_btn:hover i{
+        color:#a4d5a6;
+    }
+    header #header_bottom #login #login_btn:hover i{
+        color:#a4d5a6;
+    }
+    header #header_bottom #link_box{
+        position: fixed;
+        width:100%;
+        max-width: 900px;
+        height: 100%;
+        background: #fff;
+        top: 0;
+        right: -100%;
+        z-index: 1;
+        transition: all 0.6s;
+    } 
+    header #header_bottom #link_box #title{
+        height: 76px;
+        text-align: center;
+        margin: 0;
+        line-height: 70px;
+        margin-bottom: 75px;
+        border-bottom: 1px solid #EEE;
+    }
+    header #header_bottom #link_box #menu_btn2{
+        position: absolute;
+        top: 27px;
+        right: 40px;
+        transition: all 0.4s;
+    }
+    header #header_bottom #link_box #menu_btn2:hover{
+        transform: rotate(90deg);
+    }
+    header #header_bottom #link_box #menu_btn2 i{
+        font-size: 20px;
+        color:#000;
+    }
+    header #header_bottom #link_box.active{
+        right: 0;
+    }
+    header #header_bottom #link_box ul{
+        text-align: center;
+        padding:0 10px;
+    }
+    header #header_bottom #link_box ul li{
+        float: left;
+        width: 260px;
+        height: 260px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: #000;
+    }
+    header #header_bottom #link_box ul li a{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    header #header_bottom #link_box ul li a{
+        overflow: hidden;
+    }
+    header #header_bottom #link_box ul li a img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        opacity: 0.7;
+        transition: all 0.5s;
+    }
+    header #header_bottom #link_box ul li a img:hover{
+        transform: scale(1.1);
+    }
+    header #header_bottom #link_box ul li a span{
+        position: absolute;
+        width: 100%;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        color:#fff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    header #header_bottom #login a{
+        margin-right: 35px;
+    }
+    header #search_form{
+        position: relative;
+        float: left;
+        margin-left: 100px;
+        width: 386px;
+    }
+    header #search_form::before{
+        position: absolute;
+        left: -30px;
+        top: 28px;
+        width: 2px;
+        height: 23px;
+        background-color: #666;
+        content: "";
+    }
+    header #search_form #list_search #list_search4{
+        width: 100%;
+        height: 50px;
+        margin-top: 13px;
+        margin-right: 51px;
+        position: relative;
+        border-radius: 7px;
+    }
+    header #search_form #list_search #list_search4 img{
+        margin-top: 14px;
+        margin-left: 17px;
+    }
+    header #gnb_m{
+        display: none;
+    }
+    header #search_form #list_search #list_search4 i{
+        font-size: 18px;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+    header #header_bottom #login a{
+        line-height: 77px;
+    }
+}
+@media screen and (max-width:930px){
+    header #header_bottom{
+        position: relative;
+        height:60px;
+    }
+    header #header_bottom #menu_btn1{
+        display: none;
+    }
+    header #header_bottom #link_box{
+        display: none;
+    }
+    header #header_bottom .mbtn{
+        position: relative;
+        float: left;
+        width: 25px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    header .mbtn.active{
+        -webkit-transform : rotate(360deg);
+        transform : rotate(360deg);
+        transition: 0.5s;
+    }
+    header .mbtn.active span:nth-child(1){
+        -webkit-transform : translateY(20px) rotate(-45deg);
+        transform : translateY(10px) rotate(-45deg);
+        transition: 0.5s;
+    }
+    header .mbtn.active span:nth-child(2){
+        -webkit-transform : translateY(0) rotate(45deg) !important;
+        transform : translateY(0) rotate(45deg) !important;
+        transition: 0.5s;
+    }
+    header .mbtn.active span:nth-child(3){
+        opacity : 0;
+    }
+    header #header_bottom .mbtn span{
+        position: absolute;
+        left: 0;
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #000;
+    }
+    header #header_bottom .mbtn span.bar1{
+        top: 0;
+    }
+    header #header_bottom .mbtn span.bar2{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header #header_bottom .mbtn span.bar3{
+        bottom:0;
+    }
+    header #header_bottom #logo{
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    header #gnb_m{
+        display: none;
+        position:absolute;
+        z-index: 100;
+        width:100%;
+        top:80px;
+        background: #fff;
+    }
+    header #gnb_m ul{
+        margin-bottom: 0 !important;
+    }
+    header #gnb_m ul li{
+        border-bottom: 1px solid #000;
+        padding:0 10px;
+        box-sizing: border-box;
+        height:40px;
+        background-color:#FFF;
+        transition: 0.3s;
+    }
+    header #gnb_m ul li:hover{
+        background:#000;
+    }
+    header #gnb_m ul li:hover a{
+        color:#fff;
+    }
+    header #gnb_m a{
+        display:block;
+        font-weight:600;
+        color:#000;
+        line-height: 40px;
+        transition: 0.3s;
+    }
+    header #header_bottom #search_form{
+        display: none;
+    }
+    header #search_form{
+        border-top: 1px solid #000;
+        padding:10px
+    }
+    header #search_form #list_search #list_search4{
+        width:100%;
+        height:40px;
+        background:#f7f7f7;
+        margin-top: 7px;
+        position: relative;
+        border-radius: 7px;
+    }
+    header #search_form #list_search #list_search4 img{
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+    header #search_form #list_search #list_search4 i{
+        font-size: 18px;
+        margin-top: 12px;
+        margin-left: 17px;
+    }
+    header #header_bottom #login{
+        margin-top: 17px;
+    }
+    header #header_bottom #login a{
+        margin-right: 10px;
+    }
+    header #header_bottom #login .note_btn i{
+        font-size: 26px;
+        color:#000;
+        transition: all 0.2s;
+    }
+    header #header_bottom #login #login_btn i{
+        font-size: 26px;
+        color:#000;
+        transition: all 0.2s;
+    }
+    header #header_bottom #login .note_btn:hover i{
+        color:#a4d5a6;
+    }
+    header #header_bottom #login #login_btn:hover i{
+        color:#a4d5a6;
+    }
+}
+@media screen and (max-width:500px){
+    header #header_bottom #logo{
+        text-align: center;
+    }
+    header #header_bottom #logo img{
+        width: 90%;
+    }
+    header #header_bottom .mbtn{
+        position: relative;
+        float: left;
+        width: 21px;
+        height: 18px;
+        margin-top: 21px;
+        margin-left: 15px;
+    }
+    header #header_bottom .mbtn span{
+        position: absolute;
+        left: 0;
+        display: block;
+        width: 21px;
+        height: 2px;
+        background-color: #000;
+    }
+    header #header_bottom #login a{
+        margin-right: 3px;
+    }
+    header #header_bottom #login a i{
+        font-size: 23px !important;
+    }
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#fff;
+    z-index: 3;
+}
+header #header_top{
+    width:100%;
+    background:#000;
+    text-align: center;
+}
+header #header_bottom{
+    position: relative;
+    width:100%;
+    background:#fff;
+}
+header #header_bottom #logo{
+    display: inline-block;
+}
+
+
+header #search_form #list_search #list_search4 input[type='text']{
+    width:100%;
+    background:none;
+    height:100%;
+    position: absolute;
+    left: 0;top: 0;
+    border:none;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+header #search_form #list_search #list_search4 input::-webkit-input-placeholder { 
+    color:#000;
+    font-weight: bold;
+    font-size: 14px;
+}
+header #search_form #list_search #list_search5{
+    display: none;
+}
+header #header_bottom #login{
+    float: right;
+    position: relative;
+}
+
+
